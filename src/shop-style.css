@@ -1,0 +1,6 @@
+.shop{
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding: 32px;
+}
