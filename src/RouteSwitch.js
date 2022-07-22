@@ -24,7 +24,7 @@ const RouteSwitch = () => {
   return (
     <BrowserRouter>
       <Nav flip = {flipCart}/>
-      <Cart toAdd ={toAdd} show = {showCart}/>
+      <Cart toAdd ={toAdd} show = {showCart} flip = {flipCart}/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop addToCart = {receiveFromShop}/>} />

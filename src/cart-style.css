@@ -1,13 +1,14 @@
 .cart-container-modal{
   background-color: rgba(0, 0, 0, 0.216);
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  top: 12vh;
+  height: 88vh;
+  width: 100%;
 }
 
 .cart-container{
   position: absolute;
-  height: 100vh;
+  height: 88vh;
   width: 30vw;
   right: 0;
   background-color: white;
@@ -15,8 +16,28 @@
   padding: 16px;
   display: flex;
   flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
 }
 
 .cart-container td{
   text-align: center;
+}
+
+.cart-title{
+  text-align: center;
+}
+
+.cart .empty-text{
+  text-align: center;
+}
+
+.cart-container .total{
+  text-align: right;
+}
+
+
+
+.cart-buy{
+  flex: 0 1 max-content;
 }

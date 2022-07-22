@@ -1,5 +1,4 @@
 import "./card-style.css";
-import uniqid from "uniqid";
 
 const Card = ({ item, id, submit }) => {
   let { name, image, price } = item;
